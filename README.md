@@ -1,7 +1,6 @@
-# steam-on-linode
-Running steam dedicated servers on Linode
+# Running Steam dedicated servers on Linode
 
-# Getting a Steam API Key
+## Getting a Steam API Key
 İt is possible to run dedicated game servers anonymously, which we will do, but if you'd like to get an API key for your TF2 server then you need a steam account and and request API access from the dev portal.
 
 When you have the API key it is a matter of a curl post to get an auth token for the server:
